@@ -1,0 +1,202 @@
+# stream-clipper default configuration.
+# Every key here can be overridden by your own YAML passed with --config.
+# Values are merged recursively over these defaults.
+
+channel: hasanabi
+
+paths:
+  # Root for everything this tool writes. Relative paths resolve against CWD.
+  data_dir: ./data
+  # Raw recorded segments. Defaults to <data_dir>/segments.
+  segments_dir: null
+  # Finished clips + manifest. Defaults to <data_dir>/clips.
+  output_dir: null
+  # SQLite state file. Defaults to <data_dir>/state.db.
+  db_path: null
+
+# Which pipeline stages run. Disabling a stage leaves its inputs on disk
+# so you can re-run it later with `process`.
+stages:
+  capture: true
+  chat: true
+  transcribe: true
+  segment: true
+  rank: true
+  cut: true
+
+twitch:
+  # App credentials from https://dev.twitch.tv/console/apps.
+  # Read from env if left null: TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET.
+  client_id: null
+  client_secret: null
+  # Seconds between Helix stream-status polls while offline.
+  poll_interval: 60
+  # Seconds between polls while live (detects the stream going down).
+  live_poll_interval: 30
+  # After the stream drops, keep the session open this long waiting for a
+  # reconnect before finalizing it.
+  resume_window: 900
+  api_base: https://api.twitch.tv/helix
+  auth_base: https://id.twitch.tv/oauth2
+
+capture:
+  # streamlink quality selector.
+  quality: best
+  # Seconds per recorded segment file.
+  segment_seconds: 300
+  # Container for segments: ts is more resilient to truncation, mp4 seeks better.
+  container: ts
+  # Extra args appended to the streamlink invocation.
+  streamlink_args: ["--twitch-disable-ads", "--hls-live-restart"]
+  # Give up on a single streamlink invocation after this many consecutive
+  # failures before marking the session offline.
+  max_restarts: 10
+
+chat:
+  # Anonymous IRC read-only login needs no credentials.
+  server: irc.chat.twitch.tv
+  port: 6667
+  nick: null            # null -> anonymous justinfan<random>
+  oauth_token: null     # optional; env CHAT_OAUTH_TOKEN
+  # Flush the JSONL buffer at least this often.
+  flush_interval: 5.0
+
+transcribe:
+  # tiny, base, small, medium, large-v3, distil-large-v3 ...
+  model: large-v3
+  # auto -> cuda when available, else cpu.
+  device: auto
+  # auto -> float16 on GPU, int8 on CPU.
+  compute_type: auto
+  language: en
+  beam_size: 5
+  vad_filter: true
+  # Concurrent transcription workers. Keep at 1 for a single GPU.
+  workers: 1
+
+segment:
+  # --- semantic drift signal ---
+  embeddings:
+    backend: sentence-transformers   # or: tfidf
+    model: sentence-transformers/all-MiniLM-L6-v2
+    device: auto
+    batch_size: 32
+  semantic:
+    # Sentences on each side of a candidate gap.
+    window_sentences: 6
+    # Gap is a candidate when cosine similarity falls at or below this.
+    similarity_threshold: 0.55
+    # ...and the valley is at least this deep relative to its neighbours.
+    depth_threshold: 0.12
+  # --- LLM signal ---
+  llm:
+    enabled: true
+    # Transcript seconds per LLM window.
+    window_seconds: 1800
+    # Overlap between consecutive windows so boundaries near an edge are seen.
+    overlap_seconds: 180
+  # --- merge ---
+  # Boundaries from either signal within this many seconds are one boundary.
+  merge_tolerance: 45
+  min_topic_seconds: 180
+  max_topic_seconds: 2700
+  # Only segment transcript older than this, so an in-progress topic is not
+  # cut short by the live edge.
+  settle_seconds: 120
+
+highlight:
+  # Candidate clip window sweep.
+  clip_min_seconds: 30
+  clip_max_seconds: 90
+  stride_seconds: 5
+  # Max clips emitted per topic.
+  per_topic: 2
+  # Candidates must score at least this to be cut (0-1 after normalisation).
+  min_score: 0.35
+  weights:
+    chat_rate: 0.35
+    emote_spike: 0.25
+    llm: 0.40
+  # Emotes whose bursts signal a reaction worth clipping.
+  emotes:
+    - "KEKW"
+    - "OMEGALUL"
+    - "LULW"
+    - "LUL"
+    - "Pog"
+    - "PogU"
+    - "POGGERS"
+    - "PogChamp"
+    - "Sadge"
+    - "PepeLaugh"
+    - "COPIUM"
+    - "Clueless"
+    - "monkaS"
+    - "monkaW"
+    - "EZ"
+    - "D:"
+    - "WeirdChamp"
+    - "Pepega"
+  llm:
+    enabled: true
+    # Candidates sent to the LLM per topic (highest chat score first).
+    max_candidates: 12
+
+clips:
+  # copy   -> stream copy, start snapped back to the nearest keyframe (fast)
+  # reencode -> frame-accurate cut (slower, re-encodes)
+  # auto   -> copy unless the keyframe snap would drift more than snap_tolerance
+  mode: auto
+  snap_tolerance: 1.5
+  pad_before: 2.0
+  pad_after: 1.5
+  video_codec: libx264
+  audio_codec: aac
+  crf: 20
+  preset: veryfast
+  burn_subtitles: false
+  subtitle_style: "FontName=Inter,Fontsize=18,Outline=2,Shadow=0,MarginV=40"
+  vertical:
+    enabled: false
+    width: 1080
+    height: 1920
+    # Horizontal focus of the crop, 0.0 = left edge, 1.0 = right edge.
+    focus_x: 0.5
+  manifest_name: manifest.json
+
+llm:
+  provider: anthropic
+  model: claude-opus-5
+  # low | medium | high | xhigh | max
+  effort: medium
+  max_tokens: 16000
+  # API key from env ANTHROPIC_API_KEY (or an `ant auth login` profile).
+  api_key: null
+  max_retries: 4
+  timeout: 120.0
+  # Re-run a policy-declined request on Anthropic's recommended fallback model.
+  refusal_fallbacks: true
+
+retention:
+  # Delete a raw segment once every clip overlapping it has been cut.
+  delete_segments_after_clip: false
+  # Delete raw segments older than this many hours (0 = never).
+  raw_max_age_hours: 0
+  # Start deleting the oldest raw segments when the data dir exceeds this.
+  max_disk_gb: 0
+  # Never delete a segment a pending job still needs.
+  keep_transcripts: true
+
+runtime:
+  # Threads pulling non-transcription jobs (segmentation, ranking, cutting).
+  workers: 2
+  # Seconds a claimed job may run before another worker may retry it.
+  job_lease_seconds: 1800
+  max_job_attempts: 3
+  poll_interval: 2.0
+
+logging:
+  level: INFO
+  # json -> one structured object per line; text -> human readable.
+  format: json
+  file: null

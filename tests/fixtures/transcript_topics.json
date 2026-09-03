@@ -1,0 +1,4272 @@
+{
+ "description": "Three clearly distinct topics; boundaries are where the subject changes.",
+ "expected_topics": [
+  {
+   "label": "Election night results",
+   "tags": [
+    "politics",
+    "election",
+    "polls"
+   ]
+  },
+  {
+   "label": "Game patch balance changes",
+   "tags": [
+    "gaming",
+    "patch",
+    "balance"
+   ]
+  },
+  {
+   "label": "Cooking a late night meal",
+   "tags": [
+    "cooking",
+    "food",
+    "recipe"
+   ]
+  }
+ ],
+ "expected_boundaries": [
+  380.97,
+  817.97
+ ],
+ "total_duration": 1243.69,
+ "utterances": [
+  {
+   "start": 0.0,
+   "end": 5.38,
+   "text": "Okay so the election results are finally coming in from the swing states tonight.",
+   "words": [
+    {
+     "start": 0.0,
+     "end": 0.384,
+     "text": "Okay",
+     "probability": 0.95
+    },
+    {
+     "start": 0.384,
+     "end": 0.768,
+     "text": "so",
+     "probability": 0.95
+    },
+    {
+     "start": 0.768,
+     "end": 1.152,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1.152,
+     "end": 1.536,
+     "text": "election",
+     "probability": 0.95
+    },
+    {
+     "start": 1.536,
+     "end": 1.92,
+     "text": "results",
+     "probability": 0.95
+    },
+    {
+     "start": 1.92,
+     "end": 2.304,
+     "text": "are",
+     "probability": 0.95
+    },
+    {
+     "start": 2.304,
+     "end": 2.688,
+     "text": "finally",
+     "probability": 0.95
+    },
+    {
+     "start": 2.688,
+     "end": 3.072,
+     "text": "coming",
+     "probability": 0.95
+    },
+    {
+     "start": 3.072,
+     "end": 3.456,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 3.456,
+     "end": 3.84,
+     "text": "from",
+     "probability": 0.95
+    },
+    {
+     "start": 3.84,
+     "end": 4.224,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 4.224,
+     "end": 4.608,
+     "text": "swing",
+     "probability": 0.95
+    },
+    {
+     "start": 4.608,
+     "end": 4.992,
+     "text": "states",
+     "probability": 0.95
+    },
+    {
+     "start": 4.992,
+     "end": 5.376,
+     "text": "tonight.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 23.91,
+   "end": 28.91,
+   "text": "Pennsylvania is still counting mail ballots and the margin there is razor thin.",
+   "words": [
+    {
+     "start": 23.91,
+     "end": 24.295,
+     "text": "Pennsylvania",
+     "probability": 0.95
+    },
+    {
+     "start": 24.295,
+     "end": 24.68,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 24.68,
+     "end": 25.065,
+     "text": "still",
+     "probability": 0.95
+    },
+    {
+     "start": 25.065,
+     "end": 25.45,
+     "text": "counting",
+     "probability": 0.95
+    },
+    {
+     "start": 25.45,
+     "end": 25.835,
+     "text": "mail",
+     "probability": 0.95
+    },
+    {
+     "start": 25.835,
+     "end": 26.22,
+     "text": "ballots",
+     "probability": 0.95
+    },
+    {
+     "start": 26.22,
+     "end": 26.605,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 26.605,
+     "end": 26.99,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 26.99,
+     "end": 27.375,
+     "text": "margin",
+     "probability": 0.95
+    },
+    {
+     "start": 27.375,
+     "end": 27.76,
+     "text": "there",
+     "probability": 0.95
+    },
+    {
+     "start": 27.76,
+     "end": 28.145,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 28.145,
+     "end": 28.53,
+     "text": "razor",
+     "probability": 0.95
+    },
+    {
+     "start": 28.53,
+     "end": 28.915,
+     "text": "thin.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 45.02,
+   "end": 50.4,
+   "text": "The polling averages had this race within two points for the entire final month.",
+   "words": [
+    {
+     "start": 45.02,
+     "end": 45.404,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 45.404,
+     "end": 45.788,
+     "text": "polling",
+     "probability": 0.95
+    },
+    {
+     "start": 45.788,
+     "end": 46.172,
+     "text": "averages",
+     "probability": 0.95
+    },
+    {
+     "start": 46.172,
+     "end": 46.556,
+     "text": "had",
+     "probability": 0.95
+    },
+    {
+     "start": 46.556,
+     "end": 46.94,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 46.94,
+     "end": 47.324,
+     "text": "race",
+     "probability": 0.95
+    },
+    {
+     "start": 47.324,
+     "end": 47.708,
+     "text": "within",
+     "probability": 0.95
+    },
+    {
+     "start": 47.708,
+     "end": 48.092,
+     "text": "two",
+     "probability": 0.95
+    },
+    {
+     "start": 48.092,
+     "end": 48.476,
+     "text": "points",
+     "probability": 0.95
+    },
+    {
+     "start": 48.476,
+     "end": 48.86,
+     "text": "for",
+     "probability": 0.95
+    },
+    {
+     "start": 48.86,
+     "end": 49.244,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 49.244,
+     "end": 49.628,
+     "text": "entire",
+     "probability": 0.95
+    },
+    {
+     "start": 49.628,
+     "end": 50.012,
+     "text": "final",
+     "probability": 0.95
+    },
+    {
+     "start": 50.012,
+     "end": 50.396,
+     "text": "month.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 73.51,
+   "end": 77.74,
+   "text": "Turnout in the suburban counties looks way higher than anybody projected.",
+   "words": [
+    {
+     "start": 73.51,
+     "end": 73.895,
+     "text": "Turnout",
+     "probability": 0.95
+    },
+    {
+     "start": 73.895,
+     "end": 74.28,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 74.28,
+     "end": 74.665,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 74.665,
+     "end": 75.05,
+     "text": "suburban",
+     "probability": 0.95
+    },
+    {
+     "start": 75.05,
+     "end": 75.435,
+     "text": "counties",
+     "probability": 0.95
+    },
+    {
+     "start": 75.435,
+     "end": 75.82,
+     "text": "looks",
+     "probability": 0.95
+    },
+    {
+     "start": 75.82,
+     "end": 76.205,
+     "text": "way",
+     "probability": 0.95
+    },
+    {
+     "start": 76.205,
+     "end": 76.59,
+     "text": "higher",
+     "probability": 0.95
+    },
+    {
+     "start": 76.59,
+     "end": 76.975,
+     "text": "than",
+     "probability": 0.95
+    },
+    {
+     "start": 76.975,
+     "end": 77.36,
+     "text": "anybody",
+     "probability": 0.95
+    },
+    {
+     "start": 77.36,
+     "end": 77.745,
+     "text": "projected.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 92.75,
+   "end": 97.75,
+   "text": "The exit polls suggest younger voters broke heavily toward the challenger this cycle.",
+   "words": [
+    {
+     "start": 92.75,
+     "end": 93.135,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 93.135,
+     "end": 93.52,
+     "text": "exit",
+     "probability": 0.95
+    },
+    {
+     "start": 93.52,
+     "end": 93.905,
+     "text": "polls",
+     "probability": 0.95
+    },
+    {
+     "start": 93.905,
+     "end": 94.29,
+     "text": "suggest",
+     "probability": 0.95
+    },
+    {
+     "start": 94.29,
+     "end": 94.675,
+     "text": "younger",
+     "probability": 0.95
+    },
+    {
+     "start": 94.675,
+     "end": 95.06,
+     "text": "voters",
+     "probability": 0.95
+    },
+    {
+     "start": 95.06,
+     "end": 95.445,
+     "text": "broke",
+     "probability": 0.95
+    },
+    {
+     "start": 95.445,
+     "end": 95.83,
+     "text": "heavily",
+     "probability": 0.95
+    },
+    {
+     "start": 95.83,
+     "end": 96.215,
+     "text": "toward",
+     "probability": 0.95
+    },
+    {
+     "start": 96.215,
+     "end": 96.6,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 96.6,
+     "end": 96.985,
+     "text": "challenger",
+     "probability": 0.95
+    },
+    {
+     "start": 96.985,
+     "end": 97.37,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 97.37,
+     "end": 97.755,
+     "text": "cycle.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 119.25,
+   "end": 123.87,
+   "text": "Every network is refusing to call Arizona until the rural precincts report.",
+   "words": [
+    {
+     "start": 119.25,
+     "end": 119.635,
+     "text": "Every",
+     "probability": 0.95
+    },
+    {
+     "start": 119.635,
+     "end": 120.02,
+     "text": "network",
+     "probability": 0.95
+    },
+    {
+     "start": 120.02,
+     "end": 120.405,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 120.405,
+     "end": 120.79,
+     "text": "refusing",
+     "probability": 0.95
+    },
+    {
+     "start": 120.79,
+     "end": 121.175,
+     "text": "to",
+     "probability": 0.95
+    },
+    {
+     "start": 121.175,
+     "end": 121.56,
+     "text": "call",
+     "probability": 0.95
+    },
+    {
+     "start": 121.56,
+     "end": 121.945,
+     "text": "Arizona",
+     "probability": 0.95
+    },
+    {
+     "start": 121.945,
+     "end": 122.33,
+     "text": "until",
+     "probability": 0.95
+    },
+    {
+     "start": 122.33,
+     "end": 122.715,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 122.715,
+     "end": 123.1,
+     "text": "rural",
+     "probability": 0.95
+    },
+    {
+     "start": 123.1,
+     "end": 123.485,
+     "text": "precincts",
+     "probability": 0.95
+    },
+    {
+     "start": 123.485,
+     "end": 123.87,
+     "text": "report.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 142.99,
+   "end": 148.76,
+   "text": "Senate control comes down to three races and two of them go to a runoff.",
+   "words": [
+    {
+     "start": 142.99,
+     "end": 143.375,
+     "text": "Senate",
+     "probability": 0.95
+    },
+    {
+     "start": 143.375,
+     "end": 143.76,
+     "text": "control",
+     "probability": 0.95
+    },
+    {
+     "start": 143.76,
+     "end": 144.145,
+     "text": "comes",
+     "probability": 0.95
+    },
+    {
+     "start": 144.145,
+     "end": 144.53,
+     "text": "down",
+     "probability": 0.95
+    },
+    {
+     "start": 144.53,
+     "end": 144.915,
+     "text": "to",
+     "probability": 0.95
+    },
+    {
+     "start": 144.915,
+     "end": 145.3,
+     "text": "three",
+     "probability": 0.95
+    },
+    {
+     "start": 145.3,
+     "end": 145.685,
+     "text": "races",
+     "probability": 0.95
+    },
+    {
+     "start": 145.685,
+     "end": 146.07,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 146.07,
+     "end": 146.455,
+     "text": "two",
+     "probability": 0.95
+    },
+    {
+     "start": 146.455,
+     "end": 146.84,
+     "text": "of",
+     "probability": 0.95
+    },
+    {
+     "start": 146.84,
+     "end": 147.225,
+     "text": "them",
+     "probability": 0.95
+    },
+    {
+     "start": 147.225,
+     "end": 147.61,
+     "text": "go",
+     "probability": 0.95
+    },
+    {
+     "start": 147.61,
+     "end": 147.995,
+     "text": "to",
+     "probability": 0.95
+    },
+    {
+     "start": 147.995,
+     "end": 148.38,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 148.38,
+     "end": 148.765,
+     "text": "runoff.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 163.57,
+   "end": 168.57,
+   "text": "The incumbent governor conceded about twenty minutes ago in a pretty short speech.",
+   "words": [
+    {
+     "start": 163.57,
+     "end": 163.955,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 163.955,
+     "end": 164.34,
+     "text": "incumbent",
+     "probability": 0.95
+    },
+    {
+     "start": 164.34,
+     "end": 164.725,
+     "text": "governor",
+     "probability": 0.95
+    },
+    {
+     "start": 164.725,
+     "end": 165.11,
+     "text": "conceded",
+     "probability": 0.95
+    },
+    {
+     "start": 165.11,
+     "end": 165.495,
+     "text": "about",
+     "probability": 0.95
+    },
+    {
+     "start": 165.495,
+     "end": 165.88,
+     "text": "twenty",
+     "probability": 0.95
+    },
+    {
+     "start": 165.88,
+     "end": 166.265,
+     "text": "minutes",
+     "probability": 0.95
+    },
+    {
+     "start": 166.265,
+     "end": 166.65,
+     "text": "ago",
+     "probability": 0.95
+    },
+    {
+     "start": 166.65,
+     "end": 167.035,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 167.035,
+     "end": 167.42,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 167.42,
+     "end": 167.805,
+     "text": "pretty",
+     "probability": 0.95
+    },
+    {
+     "start": 167.805,
+     "end": 168.19,
+     "text": "short",
+     "probability": 0.95
+    },
+    {
+     "start": 168.19,
+     "end": 168.575,
+     "text": "speech.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 189.67,
+   "end": 194.29,
+   "text": "Campaign spending in this state alone was over four hundred million dollars.",
+   "words": [
+    {
+     "start": 189.67,
+     "end": 190.055,
+     "text": "Campaign",
+     "probability": 0.95
+    },
+    {
+     "start": 190.055,
+     "end": 190.44,
+     "text": "spending",
+     "probability": 0.95
+    },
+    {
+     "start": 190.44,
+     "end": 190.825,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 190.825,
+     "end": 191.21,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 191.21,
+     "end": 191.595,
+     "text": "state",
+     "probability": 0.95
+    },
+    {
+     "start": 191.595,
+     "end": 191.98,
+     "text": "alone",
+     "probability": 0.95
+    },
+    {
+     "start": 191.98,
+     "end": 192.365,
+     "text": "was",
+     "probability": 0.95
+    },
+    {
+     "start": 192.365,
+     "end": 192.75,
+     "text": "over",
+     "probability": 0.95
+    },
+    {
+     "start": 192.75,
+     "end": 193.135,
+     "text": "four",
+     "probability": 0.95
+    },
+    {
+     "start": 193.135,
+     "end": 193.52,
+     "text": "hundred",
+     "probability": 0.95
+    },
+    {
+     "start": 193.52,
+     "end": 193.905,
+     "text": "million",
+     "probability": 0.95
+    },
+    {
+     "start": 193.905,
+     "end": 194.29,
+     "text": "dollars.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 208.81,
+   "end": 213.81,
+   "text": "Redistricting is the story nobody covers and it decided half these House seats.",
+   "words": [
+    {
+     "start": 208.81,
+     "end": 209.195,
+     "text": "Redistricting",
+     "probability": 0.95
+    },
+    {
+     "start": 209.195,
+     "end": 209.58,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 209.58,
+     "end": 209.965,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 209.965,
+     "end": 210.35,
+     "text": "story",
+     "probability": 0.95
+    },
+    {
+     "start": 210.35,
+     "end": 210.735,
+     "text": "nobody",
+     "probability": 0.95
+    },
+    {
+     "start": 210.735,
+     "end": 211.12,
+     "text": "covers",
+     "probability": 0.95
+    },
+    {
+     "start": 211.12,
+     "end": 211.505,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 211.505,
+     "end": 211.89,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 211.89,
+     "end": 212.275,
+     "text": "decided",
+     "probability": 0.95
+    },
+    {
+     "start": 212.275,
+     "end": 212.66,
+     "text": "half",
+     "probability": 0.95
+    },
+    {
+     "start": 212.66,
+     "end": 213.045,
+     "text": "these",
+     "probability": 0.95
+    },
+    {
+     "start": 213.045,
+     "end": 213.43,
+     "text": "House",
+     "probability": 0.95
+    },
+    {
+     "start": 213.43,
+     "end": 213.815,
+     "text": "seats.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 233.88,
+   "end": 239.26,
+   "text": "The margin in the county that always predicts the winner flipped by nine points.",
+   "words": [
+    {
+     "start": 233.88,
+     "end": 234.264,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 234.264,
+     "end": 234.648,
+     "text": "margin",
+     "probability": 0.95
+    },
+    {
+     "start": 234.648,
+     "end": 235.032,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 235.032,
+     "end": 235.416,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 235.416,
+     "end": 235.8,
+     "text": "county",
+     "probability": 0.95
+    },
+    {
+     "start": 235.8,
+     "end": 236.184,
+     "text": "that",
+     "probability": 0.95
+    },
+    {
+     "start": 236.184,
+     "end": 236.568,
+     "text": "always",
+     "probability": 0.95
+    },
+    {
+     "start": 236.568,
+     "end": 236.952,
+     "text": "predicts",
+     "probability": 0.95
+    },
+    {
+     "start": 236.952,
+     "end": 237.336,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 237.336,
+     "end": 237.72,
+     "text": "winner",
+     "probability": 0.95
+    },
+    {
+     "start": 237.72,
+     "end": 238.104,
+     "text": "flipped",
+     "probability": 0.95
+    },
+    {
+     "start": 238.104,
+     "end": 238.488,
+     "text": "by",
+     "probability": 0.95
+    },
+    {
+     "start": 238.488,
+     "end": 238.872,
+     "text": "nine",
+     "probability": 0.95
+    },
+    {
+     "start": 238.872,
+     "end": 239.256,
+     "text": "points.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 254.24,
+   "end": 258.86,
+   "text": "Ballot measures on minimum wage passed in states the challenger lost outright.",
+   "words": [
+    {
+     "start": 254.24,
+     "end": 254.625,
+     "text": "Ballot",
+     "probability": 0.95
+    },
+    {
+     "start": 254.625,
+     "end": 255.01,
+     "text": "measures",
+     "probability": 0.95
+    },
+    {
+     "start": 255.01,
+     "end": 255.395,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 255.395,
+     "end": 255.78,
+     "text": "minimum",
+     "probability": 0.95
+    },
+    {
+     "start": 255.78,
+     "end": 256.165,
+     "text": "wage",
+     "probability": 0.95
+    },
+    {
+     "start": 256.165,
+     "end": 256.55,
+     "text": "passed",
+     "probability": 0.95
+    },
+    {
+     "start": 256.55,
+     "end": 256.935,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 256.935,
+     "end": 257.32,
+     "text": "states",
+     "probability": 0.95
+    },
+    {
+     "start": 257.32,
+     "end": 257.705,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 257.705,
+     "end": 258.09,
+     "text": "challenger",
+     "probability": 0.95
+    },
+    {
+     "start": 258.09,
+     "end": 258.475,
+     "text": "lost",
+     "probability": 0.95
+    },
+    {
+     "start": 258.475,
+     "end": 258.86,
+     "text": "outright.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 274.13,
+   "end": 279.13,
+   "text": "Pollsters are going to spend the next four years explaining this miss again.",
+   "words": [
+    {
+     "start": 274.13,
+     "end": 274.515,
+     "text": "Pollsters",
+     "probability": 0.95
+    },
+    {
+     "start": 274.515,
+     "end": 274.9,
+     "text": "are",
+     "probability": 0.95
+    },
+    {
+     "start": 274.9,
+     "end": 275.285,
+     "text": "going",
+     "probability": 0.95
+    },
+    {
+     "start": 275.285,
+     "end": 275.67,
+     "text": "to",
+     "probability": 0.95
+    },
+    {
+     "start": 275.67,
+     "end": 276.055,
+     "text": "spend",
+     "probability": 0.95
+    },
+    {
+     "start": 276.055,
+     "end": 276.44,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 276.44,
+     "end": 276.825,
+     "text": "next",
+     "probability": 0.95
+    },
+    {
+     "start": 276.825,
+     "end": 277.21,
+     "text": "four",
+     "probability": 0.95
+    },
+    {
+     "start": 277.21,
+     "end": 277.595,
+     "text": "years",
+     "probability": 0.95
+    },
+    {
+     "start": 277.595,
+     "end": 277.98,
+     "text": "explaining",
+     "probability": 0.95
+    },
+    {
+     "start": 277.98,
+     "end": 278.365,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 278.365,
+     "end": 278.75,
+     "text": "miss",
+     "probability": 0.95
+    },
+    {
+     "start": 278.75,
+     "end": 279.135,
+     "text": "again.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 299.07,
+   "end": 303.3,
+   "text": "Voter registration drives in the cities clearly moved the needle here.",
+   "words": [
+    {
+     "start": 299.07,
+     "end": 299.455,
+     "text": "Voter",
+     "probability": 0.95
+    },
+    {
+     "start": 299.455,
+     "end": 299.84,
+     "text": "registration",
+     "probability": 0.95
+    },
+    {
+     "start": 299.84,
+     "end": 300.225,
+     "text": "drives",
+     "probability": 0.95
+    },
+    {
+     "start": 300.225,
+     "end": 300.61,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 300.61,
+     "end": 300.995,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 300.995,
+     "end": 301.38,
+     "text": "cities",
+     "probability": 0.95
+    },
+    {
+     "start": 301.38,
+     "end": 301.765,
+     "text": "clearly",
+     "probability": 0.95
+    },
+    {
+     "start": 301.765,
+     "end": 302.15,
+     "text": "moved",
+     "probability": 0.95
+    },
+    {
+     "start": 302.15,
+     "end": 302.535,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 302.535,
+     "end": 302.92,
+     "text": "needle",
+     "probability": 0.95
+    },
+    {
+     "start": 302.92,
+     "end": 303.305,
+     "text": "here.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 328.88,
+   "end": 332.73,
+   "text": "The concession speech avoided every question about the primary challenge.",
+   "words": [
+    {
+     "start": 328.88,
+     "end": 329.265,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 329.265,
+     "end": 329.65,
+     "text": "concession",
+     "probability": 0.95
+    },
+    {
+     "start": 329.65,
+     "end": 330.035,
+     "text": "speech",
+     "probability": 0.95
+    },
+    {
+     "start": 330.035,
+     "end": 330.42,
+     "text": "avoided",
+     "probability": 0.95
+    },
+    {
+     "start": 330.42,
+     "end": 330.805,
+     "text": "every",
+     "probability": 0.95
+    },
+    {
+     "start": 330.805,
+     "end": 331.19,
+     "text": "question",
+     "probability": 0.95
+    },
+    {
+     "start": 331.19,
+     "end": 331.575,
+     "text": "about",
+     "probability": 0.95
+    },
+    {
+     "start": 331.575,
+     "end": 331.96,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 331.96,
+     "end": 332.345,
+     "text": "primary",
+     "probability": 0.95
+    },
+    {
+     "start": 332.345,
+     "end": 332.73,
+     "text": "challenge.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 348.46,
+   "end": 353.84,
+   "text": "Down ballot races are where the actual governing power sits and nobody watches them.",
+   "words": [
+    {
+     "start": 348.46,
+     "end": 348.844,
+     "text": "Down",
+     "probability": 0.95
+    },
+    {
+     "start": 348.844,
+     "end": 349.228,
+     "text": "ballot",
+     "probability": 0.95
+    },
+    {
+     "start": 349.228,
+     "end": 349.612,
+     "text": "races",
+     "probability": 0.95
+    },
+    {
+     "start": 349.612,
+     "end": 349.996,
+     "text": "are",
+     "probability": 0.95
+    },
+    {
+     "start": 349.996,
+     "end": 350.38,
+     "text": "where",
+     "probability": 0.95
+    },
+    {
+     "start": 350.38,
+     "end": 350.764,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 350.764,
+     "end": 351.148,
+     "text": "actual",
+     "probability": 0.95
+    },
+    {
+     "start": 351.148,
+     "end": 351.532,
+     "text": "governing",
+     "probability": 0.95
+    },
+    {
+     "start": 351.532,
+     "end": 351.916,
+     "text": "power",
+     "probability": 0.95
+    },
+    {
+     "start": 351.916,
+     "end": 352.3,
+     "text": "sits",
+     "probability": 0.95
+    },
+    {
+     "start": 352.3,
+     "end": 352.684,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 352.684,
+     "end": 353.068,
+     "text": "nobody",
+     "probability": 0.95
+    },
+    {
+     "start": 353.068,
+     "end": 353.452,
+     "text": "watches",
+     "probability": 0.95
+    },
+    {
+     "start": 353.452,
+     "end": 353.836,
+     "text": "them.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 390.97,
+   "end": 395.97,
+   "text": "Alright, the new patch dropped this morning and the balance changes are insane.",
+   "words": [
+    {
+     "start": 390.97,
+     "end": 391.355,
+     "text": "Alright,",
+     "probability": 0.95
+    },
+    {
+     "start": 391.355,
+     "end": 391.74,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 391.74,
+     "end": 392.125,
+     "text": "new",
+     "probability": 0.95
+    },
+    {
+     "start": 392.125,
+     "end": 392.51,
+     "text": "patch",
+     "probability": 0.95
+    },
+    {
+     "start": 392.51,
+     "end": 392.895,
+     "text": "dropped",
+     "probability": 0.95
+    },
+    {
+     "start": 392.895,
+     "end": 393.28,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 393.28,
+     "end": 393.665,
+     "text": "morning",
+     "probability": 0.95
+    },
+    {
+     "start": 393.665,
+     "end": 394.05,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 394.05,
+     "end": 394.435,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 394.435,
+     "end": 394.82,
+     "text": "balance",
+     "probability": 0.95
+    },
+    {
+     "start": 394.82,
+     "end": 395.205,
+     "text": "changes",
+     "probability": 0.95
+    },
+    {
+     "start": 395.205,
+     "end": 395.59,
+     "text": "are",
+     "probability": 0.95
+    },
+    {
+     "start": 395.59,
+     "end": 395.975,
+     "text": "insane.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 418.75,
+   "end": 423.37,
+   "text": "They nerfed the shotgun damage falloff by thirty percent across every range.",
+   "words": [
+    {
+     "start": 418.75,
+     "end": 419.135,
+     "text": "They",
+     "probability": 0.95
+    },
+    {
+     "start": 419.135,
+     "end": 419.52,
+     "text": "nerfed",
+     "probability": 0.95
+    },
+    {
+     "start": 419.52,
+     "end": 419.905,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 419.905,
+     "end": 420.29,
+     "text": "shotgun",
+     "probability": 0.95
+    },
+    {
+     "start": 420.29,
+     "end": 420.675,
+     "text": "damage",
+     "probability": 0.95
+    },
+    {
+     "start": 420.675,
+     "end": 421.06,
+     "text": "falloff",
+     "probability": 0.95
+    },
+    {
+     "start": 421.06,
+     "end": 421.445,
+     "text": "by",
+     "probability": 0.95
+    },
+    {
+     "start": 421.445,
+     "end": 421.83,
+     "text": "thirty",
+     "probability": 0.95
+    },
+    {
+     "start": 421.83,
+     "end": 422.215,
+     "text": "percent",
+     "probability": 0.95
+    },
+    {
+     "start": 422.215,
+     "end": 422.6,
+     "text": "across",
+     "probability": 0.95
+    },
+    {
+     "start": 422.6,
+     "end": 422.985,
+     "text": "every",
+     "probability": 0.95
+    },
+    {
+     "start": 422.985,
+     "end": 423.37,
+     "text": "range.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 450.64,
+   "end": 456.02,
+   "text": "The sniper rifle got a scope glint added which basically kills the whole playstyle.",
+   "words": [
+    {
+     "start": 450.64,
+     "end": 451.024,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 451.024,
+     "end": 451.408,
+     "text": "sniper",
+     "probability": 0.95
+    },
+    {
+     "start": 451.408,
+     "end": 451.792,
+     "text": "rifle",
+     "probability": 0.95
+    },
+    {
+     "start": 451.792,
+     "end": 452.176,
+     "text": "got",
+     "probability": 0.95
+    },
+    {
+     "start": 452.176,
+     "end": 452.56,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 452.56,
+     "end": 452.944,
+     "text": "scope",
+     "probability": 0.95
+    },
+    {
+     "start": 452.944,
+     "end": 453.328,
+     "text": "glint",
+     "probability": 0.95
+    },
+    {
+     "start": 453.328,
+     "end": 453.712,
+     "text": "added",
+     "probability": 0.95
+    },
+    {
+     "start": 453.712,
+     "end": 454.096,
+     "text": "which",
+     "probability": 0.95
+    },
+    {
+     "start": 454.096,
+     "end": 454.48,
+     "text": "basically",
+     "probability": 0.95
+    },
+    {
+     "start": 454.48,
+     "end": 454.864,
+     "text": "kills",
+     "probability": 0.95
+    },
+    {
+     "start": 454.864,
+     "end": 455.248,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 455.248,
+     "end": 455.632,
+     "text": "whole",
+     "probability": 0.95
+    },
+    {
+     "start": 455.632,
+     "end": 456.016,
+     "text": "playstyle.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 478.1,
+   "end": 483.1,
+   "text": "Movement speed while aiming down sights is slower now in every single loadout.",
+   "words": [
+    {
+     "start": 478.1,
+     "end": 478.485,
+     "text": "Movement",
+     "probability": 0.95
+    },
+    {
+     "start": 478.485,
+     "end": 478.87,
+     "text": "speed",
+     "probability": 0.95
+    },
+    {
+     "start": 478.87,
+     "end": 479.255,
+     "text": "while",
+     "probability": 0.95
+    },
+    {
+     "start": 479.255,
+     "end": 479.64,
+     "text": "aiming",
+     "probability": 0.95
+    },
+    {
+     "start": 479.64,
+     "end": 480.025,
+     "text": "down",
+     "probability": 0.95
+    },
+    {
+     "start": 480.025,
+     "end": 480.41,
+     "text": "sights",
+     "probability": 0.95
+    },
+    {
+     "start": 480.41,
+     "end": 480.795,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 480.795,
+     "end": 481.18,
+     "text": "slower",
+     "probability": 0.95
+    },
+    {
+     "start": 481.18,
+     "end": 481.565,
+     "text": "now",
+     "probability": 0.95
+    },
+    {
+     "start": 481.565,
+     "end": 481.95,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 481.95,
+     "end": 482.335,
+     "text": "every",
+     "probability": 0.95
+    },
+    {
+     "start": 482.335,
+     "end": 482.72,
+     "text": "single",
+     "probability": 0.95
+    },
+    {
+     "start": 482.72,
+     "end": 483.105,
+     "text": "loadout.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 502.65,
+   "end": 507.65,
+   "text": "The developers buffed the support class healing rate but capped the ammo regen.",
+   "words": [
+    {
+     "start": 502.65,
+     "end": 503.035,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 503.035,
+     "end": 503.42,
+     "text": "developers",
+     "probability": 0.95
+    },
+    {
+     "start": 503.42,
+     "end": 503.805,
+     "text": "buffed",
+     "probability": 0.95
+    },
+    {
+     "start": 503.805,
+     "end": 504.19,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 504.19,
+     "end": 504.575,
+     "text": "support",
+     "probability": 0.95
+    },
+    {
+     "start": 504.575,
+     "end": 504.96,
+     "text": "class",
+     "probability": 0.95
+    },
+    {
+     "start": 504.96,
+     "end": 505.345,
+     "text": "healing",
+     "probability": 0.95
+    },
+    {
+     "start": 505.345,
+     "end": 505.73,
+     "text": "rate",
+     "probability": 0.95
+    },
+    {
+     "start": 505.73,
+     "end": 506.115,
+     "text": "but",
+     "probability": 0.95
+    },
+    {
+     "start": 506.115,
+     "end": 506.5,
+     "text": "capped",
+     "probability": 0.95
+    },
+    {
+     "start": 506.5,
+     "end": 506.885,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 506.885,
+     "end": 507.27,
+     "text": "ammo",
+     "probability": 0.95
+    },
+    {
+     "start": 507.27,
+     "end": 507.655,
+     "text": "regen.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 535.32,
+   "end": 539.55,
+   "text": "Ranked matchmaking is completely broken because the skill rating reset again.",
+   "words": [
+    {
+     "start": 535.32,
+     "end": 535.705,
+     "text": "Ranked",
+     "probability": 0.95
+    },
+    {
+     "start": 535.705,
+     "end": 536.09,
+     "text": "matchmaking",
+     "probability": 0.95
+    },
+    {
+     "start": 536.09,
+     "end": 536.475,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 536.475,
+     "end": 536.86,
+     "text": "completely",
+     "probability": 0.95
+    },
+    {
+     "start": 536.86,
+     "end": 537.245,
+     "text": "broken",
+     "probability": 0.95
+    },
+    {
+     "start": 537.245,
+     "end": 537.63,
+     "text": "because",
+     "probability": 0.95
+    },
+    {
+     "start": 537.63,
+     "end": 538.015,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 538.015,
+     "end": 538.4,
+     "text": "skill",
+     "probability": 0.95
+    },
+    {
+     "start": 538.4,
+     "end": 538.785,
+     "text": "rating",
+     "probability": 0.95
+    },
+    {
+     "start": 538.785,
+     "end": 539.17,
+     "text": "reset",
+     "probability": 0.95
+    },
+    {
+     "start": 539.17,
+     "end": 539.555,
+     "text": "again.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 554.2,
+   "end": 560.35,
+   "text": "My whole build is dead, the perk it relied on got removed from the game entirely.",
+   "words": [
+    {
+     "start": 554.2,
+     "end": 554.584,
+     "text": "My",
+     "probability": 0.95
+    },
+    {
+     "start": 554.584,
+     "end": 554.968,
+     "text": "whole",
+     "probability": 0.95
+    },
+    {
+     "start": 554.968,
+     "end": 555.352,
+     "text": "build",
+     "probability": 0.95
+    },
+    {
+     "start": 555.352,
+     "end": 555.736,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 555.736,
+     "end": 556.12,
+     "text": "dead,",
+     "probability": 0.95
+    },
+    {
+     "start": 556.12,
+     "end": 556.504,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 556.504,
+     "end": 556.888,
+     "text": "perk",
+     "probability": 0.95
+    },
+    {
+     "start": 556.888,
+     "end": 557.272,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 557.272,
+     "end": 557.656,
+     "text": "relied",
+     "probability": 0.95
+    },
+    {
+     "start": 557.656,
+     "end": 558.04,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 558.04,
+     "end": 558.424,
+     "text": "got",
+     "probability": 0.95
+    },
+    {
+     "start": 558.424,
+     "end": 558.808,
+     "text": "removed",
+     "probability": 0.95
+    },
+    {
+     "start": 558.808,
+     "end": 559.192,
+     "text": "from",
+     "probability": 0.95
+    },
+    {
+     "start": 559.192,
+     "end": 559.576,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 559.576,
+     "end": 559.96,
+     "text": "game",
+     "probability": 0.95
+    },
+    {
+     "start": 559.96,
+     "end": 560.344,
+     "text": "entirely.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 586.37,
+   "end": 591.75,
+   "text": "The hitbox on the heavy armor was oversized for two seasons and nobody noticed.",
+   "words": [
+    {
+     "start": 586.37,
+     "end": 586.754,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 586.754,
+     "end": 587.138,
+     "text": "hitbox",
+     "probability": 0.95
+    },
+    {
+     "start": 587.138,
+     "end": 587.522,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 587.522,
+     "end": 587.906,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 587.906,
+     "end": 588.29,
+     "text": "heavy",
+     "probability": 0.95
+    },
+    {
+     "start": 588.29,
+     "end": 588.674,
+     "text": "armor",
+     "probability": 0.95
+    },
+    {
+     "start": 588.674,
+     "end": 589.058,
+     "text": "was",
+     "probability": 0.95
+    },
+    {
+     "start": 589.058,
+     "end": 589.442,
+     "text": "oversized",
+     "probability": 0.95
+    },
+    {
+     "start": 589.442,
+     "end": 589.826,
+     "text": "for",
+     "probability": 0.95
+    },
+    {
+     "start": 589.826,
+     "end": 590.21,
+     "text": "two",
+     "probability": 0.95
+    },
+    {
+     "start": 590.21,
+     "end": 590.594,
+     "text": "seasons",
+     "probability": 0.95
+    },
+    {
+     "start": 590.594,
+     "end": 590.978,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 590.978,
+     "end": 591.362,
+     "text": "nobody",
+     "probability": 0.95
+    },
+    {
+     "start": 591.362,
+     "end": 591.746,
+     "text": "noticed.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 609.8,
+   "end": 615.57,
+   "text": "Server tick rate is still sixty and that is the actual problem with the netcode.",
+   "words": [
+    {
+     "start": 609.8,
+     "end": 610.185,
+     "text": "Server",
+     "probability": 0.95
+    },
+    {
+     "start": 610.185,
+     "end": 610.57,
+     "text": "tick",
+     "probability": 0.95
+    },
+    {
+     "start": 610.57,
+     "end": 610.955,
+     "text": "rate",
+     "probability": 0.95
+    },
+    {
+     "start": 610.955,
+     "end": 611.34,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 611.34,
+     "end": 611.725,
+     "text": "still",
+     "probability": 0.95
+    },
+    {
+     "start": 611.725,
+     "end": 612.11,
+     "text": "sixty",
+     "probability": 0.95
+    },
+    {
+     "start": 612.11,
+     "end": 612.495,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 612.495,
+     "end": 612.88,
+     "text": "that",
+     "probability": 0.95
+    },
+    {
+     "start": 612.88,
+     "end": 613.265,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 613.265,
+     "end": 613.65,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 613.65,
+     "end": 614.035,
+     "text": "actual",
+     "probability": 0.95
+    },
+    {
+     "start": 614.035,
+     "end": 614.42,
+     "text": "problem",
+     "probability": 0.95
+    },
+    {
+     "start": 614.42,
+     "end": 614.805,
+     "text": "with",
+     "probability": 0.95
+    },
+    {
+     "start": 614.805,
+     "end": 615.19,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 615.19,
+     "end": 615.575,
+     "text": "netcode.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 631.59,
+   "end": 638.13,
+   "text": "They added a new map but it is just the old map with the middle lane widened.",
+   "words": [
+    {
+     "start": 631.59,
+     "end": 631.975,
+     "text": "They",
+     "probability": 0.95
+    },
+    {
+     "start": 631.975,
+     "end": 632.36,
+     "text": "added",
+     "probability": 0.95
+    },
+    {
+     "start": 632.36,
+     "end": 632.745,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 632.745,
+     "end": 633.13,
+     "text": "new",
+     "probability": 0.95
+    },
+    {
+     "start": 633.13,
+     "end": 633.515,
+     "text": "map",
+     "probability": 0.95
+    },
+    {
+     "start": 633.515,
+     "end": 633.9,
+     "text": "but",
+     "probability": 0.95
+    },
+    {
+     "start": 633.9,
+     "end": 634.285,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 634.285,
+     "end": 634.67,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 634.67,
+     "end": 635.055,
+     "text": "just",
+     "probability": 0.95
+    },
+    {
+     "start": 635.055,
+     "end": 635.44,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 635.44,
+     "end": 635.825,
+     "text": "old",
+     "probability": 0.95
+    },
+    {
+     "start": 635.825,
+     "end": 636.21,
+     "text": "map",
+     "probability": 0.95
+    },
+    {
+     "start": 636.21,
+     "end": 636.595,
+     "text": "with",
+     "probability": 0.95
+    },
+    {
+     "start": 636.595,
+     "end": 636.98,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 636.98,
+     "end": 637.365,
+     "text": "middle",
+     "probability": 0.95
+    },
+    {
+     "start": 637.365,
+     "end": 637.75,
+     "text": "lane",
+     "probability": 0.95
+    },
+    {
+     "start": 637.75,
+     "end": 638.135,
+     "text": "widened.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 653.78,
+   "end": 658.78,
+   "text": "The battle pass grind got longer while the experience per match went down.",
+   "words": [
+    {
+     "start": 653.78,
+     "end": 654.165,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 654.165,
+     "end": 654.55,
+     "text": "battle",
+     "probability": 0.95
+    },
+    {
+     "start": 654.55,
+     "end": 654.935,
+     "text": "pass",
+     "probability": 0.95
+    },
+    {
+     "start": 654.935,
+     "end": 655.32,
+     "text": "grind",
+     "probability": 0.95
+    },
+    {
+     "start": 655.32,
+     "end": 655.705,
+     "text": "got",
+     "probability": 0.95
+    },
+    {
+     "start": 655.705,
+     "end": 656.09,
+     "text": "longer",
+     "probability": 0.95
+    },
+    {
+     "start": 656.09,
+     "end": 656.475,
+     "text": "while",
+     "probability": 0.95
+    },
+    {
+     "start": 656.475,
+     "end": 656.86,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 656.86,
+     "end": 657.245,
+     "text": "experience",
+     "probability": 0.95
+    },
+    {
+     "start": 657.245,
+     "end": 657.63,
+     "text": "per",
+     "probability": 0.95
+    },
+    {
+     "start": 657.63,
+     "end": 658.015,
+     "text": "match",
+     "probability": 0.95
+    },
+    {
+     "start": 658.015,
+     "end": 658.4,
+     "text": "went",
+     "probability": 0.95
+    },
+    {
+     "start": 658.4,
+     "end": 658.785,
+     "text": "down.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 677.1,
+   "end": 682.1,
+   "text": "Every pro player in the scene is complaining about the recoil pattern change.",
+   "words": [
+    {
+     "start": 677.1,
+     "end": 677.485,
+     "text": "Every",
+     "probability": 0.95
+    },
+    {
+     "start": 677.485,
+     "end": 677.87,
+     "text": "pro",
+     "probability": 0.95
+    },
+    {
+     "start": 677.87,
+     "end": 678.255,
+     "text": "player",
+     "probability": 0.95
+    },
+    {
+     "start": 678.255,
+     "end": 678.64,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 678.64,
+     "end": 679.025,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 679.025,
+     "end": 679.41,
+     "text": "scene",
+     "probability": 0.95
+    },
+    {
+     "start": 679.41,
+     "end": 679.795,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 679.795,
+     "end": 680.18,
+     "text": "complaining",
+     "probability": 0.95
+    },
+    {
+     "start": 680.18,
+     "end": 680.565,
+     "text": "about",
+     "probability": 0.95
+    },
+    {
+     "start": 680.565,
+     "end": 680.95,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 680.95,
+     "end": 681.335,
+     "text": "recoil",
+     "probability": 0.95
+    },
+    {
+     "start": 681.335,
+     "end": 681.72,
+     "text": "pattern",
+     "probability": 0.95
+    },
+    {
+     "start": 681.72,
+     "end": 682.105,
+     "text": "change.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 707.53,
+   "end": 712.91,
+   "text": "Controller aim assist versus mouse input is going to be the whole meta discussion.",
+   "words": [
+    {
+     "start": 707.53,
+     "end": 707.914,
+     "text": "Controller",
+     "probability": 0.95
+    },
+    {
+     "start": 707.914,
+     "end": 708.298,
+     "text": "aim",
+     "probability": 0.95
+    },
+    {
+     "start": 708.298,
+     "end": 708.682,
+     "text": "assist",
+     "probability": 0.95
+    },
+    {
+     "start": 708.682,
+     "end": 709.066,
+     "text": "versus",
+     "probability": 0.95
+    },
+    {
+     "start": 709.066,
+     "end": 709.45,
+     "text": "mouse",
+     "probability": 0.95
+    },
+    {
+     "start": 709.45,
+     "end": 709.834,
+     "text": "input",
+     "probability": 0.95
+    },
+    {
+     "start": 709.834,
+     "end": 710.218,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 710.218,
+     "end": 710.602,
+     "text": "going",
+     "probability": 0.95
+    },
+    {
+     "start": 710.602,
+     "end": 710.986,
+     "text": "to",
+     "probability": 0.95
+    },
+    {
+     "start": 710.986,
+     "end": 711.37,
+     "text": "be",
+     "probability": 0.95
+    },
+    {
+     "start": 711.37,
+     "end": 711.754,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 711.754,
+     "end": 712.138,
+     "text": "whole",
+     "probability": 0.95
+    },
+    {
+     "start": 712.138,
+     "end": 712.522,
+     "text": "meta",
+     "probability": 0.95
+    },
+    {
+     "start": 712.522,
+     "end": 712.906,
+     "text": "discussion.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 729.44,
+   "end": 735.21,
+   "text": "The patch notes do not even mention the audio bug that has existed since launch.",
+   "words": [
+    {
+     "start": 729.44,
+     "end": 729.825,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 729.825,
+     "end": 730.21,
+     "text": "patch",
+     "probability": 0.95
+    },
+    {
+     "start": 730.21,
+     "end": 730.595,
+     "text": "notes",
+     "probability": 0.95
+    },
+    {
+     "start": 730.595,
+     "end": 730.98,
+     "text": "do",
+     "probability": 0.95
+    },
+    {
+     "start": 730.98,
+     "end": 731.365,
+     "text": "not",
+     "probability": 0.95
+    },
+    {
+     "start": 731.365,
+     "end": 731.75,
+     "text": "even",
+     "probability": 0.95
+    },
+    {
+     "start": 731.75,
+     "end": 732.135,
+     "text": "mention",
+     "probability": 0.95
+    },
+    {
+     "start": 732.135,
+     "end": 732.52,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 732.52,
+     "end": 732.905,
+     "text": "audio",
+     "probability": 0.95
+    },
+    {
+     "start": 732.905,
+     "end": 733.29,
+     "text": "bug",
+     "probability": 0.95
+    },
+    {
+     "start": 733.29,
+     "end": 733.675,
+     "text": "that",
+     "probability": 0.95
+    },
+    {
+     "start": 733.675,
+     "end": 734.06,
+     "text": "has",
+     "probability": 0.95
+    },
+    {
+     "start": 734.06,
+     "end": 734.445,
+     "text": "existed",
+     "probability": 0.95
+    },
+    {
+     "start": 734.445,
+     "end": 734.83,
+     "text": "since",
+     "probability": 0.95
+    },
+    {
+     "start": 734.83,
+     "end": 735.215,
+     "text": "launch.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 757.35,
+   "end": 761.2,
+   "text": "Weapon attachments now have diminishing returns which nobody asked for.",
+   "words": [
+    {
+     "start": 757.35,
+     "end": 757.735,
+     "text": "Weapon",
+     "probability": 0.95
+    },
+    {
+     "start": 757.735,
+     "end": 758.12,
+     "text": "attachments",
+     "probability": 0.95
+    },
+    {
+     "start": 758.12,
+     "end": 758.505,
+     "text": "now",
+     "probability": 0.95
+    },
+    {
+     "start": 758.505,
+     "end": 758.89,
+     "text": "have",
+     "probability": 0.95
+    },
+    {
+     "start": 758.89,
+     "end": 759.275,
+     "text": "diminishing",
+     "probability": 0.95
+    },
+    {
+     "start": 759.275,
+     "end": 759.66,
+     "text": "returns",
+     "probability": 0.95
+    },
+    {
+     "start": 759.66,
+     "end": 760.045,
+     "text": "which",
+     "probability": 0.95
+    },
+    {
+     "start": 760.045,
+     "end": 760.43,
+     "text": "nobody",
+     "probability": 0.95
+    },
+    {
+     "start": 760.43,
+     "end": 760.815,
+     "text": "asked",
+     "probability": 0.95
+    },
+    {
+     "start": 760.815,
+     "end": 761.2,
+     "text": "for.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 784.14,
+   "end": 788.76,
+   "text": "Competitive playlists get the changes two weeks after casual, which is backwards.",
+   "words": [
+    {
+     "start": 784.14,
+     "end": 784.525,
+     "text": "Competitive",
+     "probability": 0.95
+    },
+    {
+     "start": 784.525,
+     "end": 784.91,
+     "text": "playlists",
+     "probability": 0.95
+    },
+    {
+     "start": 784.91,
+     "end": 785.295,
+     "text": "get",
+     "probability": 0.95
+    },
+    {
+     "start": 785.295,
+     "end": 785.68,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 785.68,
+     "end": 786.065,
+     "text": "changes",
+     "probability": 0.95
+    },
+    {
+     "start": 786.065,
+     "end": 786.45,
+     "text": "two",
+     "probability": 0.95
+    },
+    {
+     "start": 786.45,
+     "end": 786.835,
+     "text": "weeks",
+     "probability": 0.95
+    },
+    {
+     "start": 786.835,
+     "end": 787.22,
+     "text": "after",
+     "probability": 0.95
+    },
+    {
+     "start": 787.22,
+     "end": 787.605,
+     "text": "casual,",
+     "probability": 0.95
+    },
+    {
+     "start": 787.605,
+     "end": 787.99,
+     "text": "which",
+     "probability": 0.95
+    },
+    {
+     "start": 787.99,
+     "end": 788.375,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 788.375,
+     "end": 788.76,
+     "text": "backwards.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 827.97,
+   "end": 832.97,
+   "text": "Anyway I am starving, let me actually cook something on stream for once.",
+   "words": [
+    {
+     "start": 827.97,
+     "end": 828.355,
+     "text": "Anyway",
+     "probability": 0.95
+    },
+    {
+     "start": 828.355,
+     "end": 828.74,
+     "text": "I",
+     "probability": 0.95
+    },
+    {
+     "start": 828.74,
+     "end": 829.125,
+     "text": "am",
+     "probability": 0.95
+    },
+    {
+     "start": 829.125,
+     "end": 829.51,
+     "text": "starving,",
+     "probability": 0.95
+    },
+    {
+     "start": 829.51,
+     "end": 829.895,
+     "text": "let",
+     "probability": 0.95
+    },
+    {
+     "start": 829.895,
+     "end": 830.28,
+     "text": "me",
+     "probability": 0.95
+    },
+    {
+     "start": 830.28,
+     "end": 830.665,
+     "text": "actually",
+     "probability": 0.95
+    },
+    {
+     "start": 830.665,
+     "end": 831.05,
+     "text": "cook",
+     "probability": 0.95
+    },
+    {
+     "start": 831.05,
+     "end": 831.435,
+     "text": "something",
+     "probability": 0.95
+    },
+    {
+     "start": 831.435,
+     "end": 831.82,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 831.82,
+     "end": 832.205,
+     "text": "stream",
+     "probability": 0.95
+    },
+    {
+     "start": 832.205,
+     "end": 832.59,
+     "text": "for",
+     "probability": 0.95
+    },
+    {
+     "start": 832.59,
+     "end": 832.975,
+     "text": "once.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 854.64,
+   "end": 860.02,
+   "text": "I am doing a garlic butter pasta because it takes about twelve minutes total.",
+   "words": [
+    {
+     "start": 854.64,
+     "end": 855.024,
+     "text": "I",
+     "probability": 0.95
+    },
+    {
+     "start": 855.024,
+     "end": 855.408,
+     "text": "am",
+     "probability": 0.95
+    },
+    {
+     "start": 855.408,
+     "end": 855.792,
+     "text": "doing",
+     "probability": 0.95
+    },
+    {
+     "start": 855.792,
+     "end": 856.176,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 856.176,
+     "end": 856.56,
+     "text": "garlic",
+     "probability": 0.95
+    },
+    {
+     "start": 856.56,
+     "end": 856.944,
+     "text": "butter",
+     "probability": 0.95
+    },
+    {
+     "start": 856.944,
+     "end": 857.328,
+     "text": "pasta",
+     "probability": 0.95
+    },
+    {
+     "start": 857.328,
+     "end": 857.712,
+     "text": "because",
+     "probability": 0.95
+    },
+    {
+     "start": 857.712,
+     "end": 858.096,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 858.096,
+     "end": 858.48,
+     "text": "takes",
+     "probability": 0.95
+    },
+    {
+     "start": 858.48,
+     "end": 858.864,
+     "text": "about",
+     "probability": 0.95
+    },
+    {
+     "start": 858.864,
+     "end": 859.248,
+     "text": "twelve",
+     "probability": 0.95
+    },
+    {
+     "start": 859.248,
+     "end": 859.632,
+     "text": "minutes",
+     "probability": 0.95
+    },
+    {
+     "start": 859.632,
+     "end": 860.016,
+     "text": "total.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 874.9,
+   "end": 879.9,
+   "text": "Salt the water heavily, it should genuinely taste like seawater before the pasta.",
+   "words": [
+    {
+     "start": 874.9,
+     "end": 875.285,
+     "text": "Salt",
+     "probability": 0.95
+    },
+    {
+     "start": 875.285,
+     "end": 875.67,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 875.67,
+     "end": 876.055,
+     "text": "water",
+     "probability": 0.95
+    },
+    {
+     "start": 876.055,
+     "end": 876.44,
+     "text": "heavily,",
+     "probability": 0.95
+    },
+    {
+     "start": 876.44,
+     "end": 876.825,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 876.825,
+     "end": 877.21,
+     "text": "should",
+     "probability": 0.95
+    },
+    {
+     "start": 877.21,
+     "end": 877.595,
+     "text": "genuinely",
+     "probability": 0.95
+    },
+    {
+     "start": 877.595,
+     "end": 877.98,
+     "text": "taste",
+     "probability": 0.95
+    },
+    {
+     "start": 877.98,
+     "end": 878.365,
+     "text": "like",
+     "probability": 0.95
+    },
+    {
+     "start": 878.365,
+     "end": 878.75,
+     "text": "seawater",
+     "probability": 0.95
+    },
+    {
+     "start": 878.75,
+     "end": 879.135,
+     "text": "before",
+     "probability": 0.95
+    },
+    {
+     "start": 879.135,
+     "end": 879.52,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 879.52,
+     "end": 879.905,
+     "text": "pasta.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 894.73,
+   "end": 900.88,
+   "text": "The trick is finishing the noodles in the pan with a ladle of the starchy water.",
+   "words": [
+    {
+     "start": 894.73,
+     "end": 895.114,
+     "text": "The",
+     "probability": 0.95
+    },
+    {
+     "start": 895.114,
+     "end": 895.498,
+     "text": "trick",
+     "probability": 0.95
+    },
+    {
+     "start": 895.498,
+     "end": 895.882,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 895.882,
+     "end": 896.266,
+     "text": "finishing",
+     "probability": 0.95
+    },
+    {
+     "start": 896.266,
+     "end": 896.65,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 896.65,
+     "end": 897.034,
+     "text": "noodles",
+     "probability": 0.95
+    },
+    {
+     "start": 897.034,
+     "end": 897.418,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 897.418,
+     "end": 897.802,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 897.802,
+     "end": 898.186,
+     "text": "pan",
+     "probability": 0.95
+    },
+    {
+     "start": 898.186,
+     "end": 898.57,
+     "text": "with",
+     "probability": 0.95
+    },
+    {
+     "start": 898.57,
+     "end": 898.954,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 898.954,
+     "end": 899.338,
+     "text": "ladle",
+     "probability": 0.95
+    },
+    {
+     "start": 899.338,
+     "end": 899.722,
+     "text": "of",
+     "probability": 0.95
+    },
+    {
+     "start": 899.722,
+     "end": 900.106,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 900.106,
+     "end": 900.49,
+     "text": "starchy",
+     "probability": 0.95
+    },
+    {
+     "start": 900.49,
+     "end": 900.874,
+     "text": "water.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 917.76,
+   "end": 922.76,
+   "text": "Do not let the garlic brown or the whole sauce turns bitter immediately.",
+   "words": [
+    {
+     "start": 917.76,
+     "end": 918.145,
+     "text": "Do",
+     "probability": 0.95
+    },
+    {
+     "start": 918.145,
+     "end": 918.53,
+     "text": "not",
+     "probability": 0.95
+    },
+    {
+     "start": 918.53,
+     "end": 918.915,
+     "text": "let",
+     "probability": 0.95
+    },
+    {
+     "start": 918.915,
+     "end": 919.3,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 919.3,
+     "end": 919.685,
+     "text": "garlic",
+     "probability": 0.95
+    },
+    {
+     "start": 919.685,
+     "end": 920.07,
+     "text": "brown",
+     "probability": 0.95
+    },
+    {
+     "start": 920.07,
+     "end": 920.455,
+     "text": "or",
+     "probability": 0.95
+    },
+    {
+     "start": 920.455,
+     "end": 920.84,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 920.84,
+     "end": 921.225,
+     "text": "whole",
+     "probability": 0.95
+    },
+    {
+     "start": 921.225,
+     "end": 921.61,
+     "text": "sauce",
+     "probability": 0.95
+    },
+    {
+     "start": 921.61,
+     "end": 921.995,
+     "text": "turns",
+     "probability": 0.95
+    },
+    {
+     "start": 921.995,
+     "end": 922.38,
+     "text": "bitter",
+     "probability": 0.95
+    },
+    {
+     "start": 922.38,
+     "end": 922.765,
+     "text": "immediately.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 946.29,
+   "end": 951.67,
+   "text": "Fresh parmesan grated off the block, the pre shredded stuff has anti caking powder.",
+   "words": [
+    {
+     "start": 946.29,
+     "end": 946.674,
+     "text": "Fresh",
+     "probability": 0.95
+    },
+    {
+     "start": 946.674,
+     "end": 947.058,
+     "text": "parmesan",
+     "probability": 0.95
+    },
+    {
+     "start": 947.058,
+     "end": 947.442,
+     "text": "grated",
+     "probability": 0.95
+    },
+    {
+     "start": 947.442,
+     "end": 947.826,
+     "text": "off",
+     "probability": 0.95
+    },
+    {
+     "start": 947.826,
+     "end": 948.21,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 948.21,
+     "end": 948.594,
+     "text": "block,",
+     "probability": 0.95
+    },
+    {
+     "start": 948.594,
+     "end": 948.978,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 948.978,
+     "end": 949.362,
+     "text": "pre",
+     "probability": 0.95
+    },
+    {
+     "start": 949.362,
+     "end": 949.746,
+     "text": "shredded",
+     "probability": 0.95
+    },
+    {
+     "start": 949.746,
+     "end": 950.13,
+     "text": "stuff",
+     "probability": 0.95
+    },
+    {
+     "start": 950.13,
+     "end": 950.514,
+     "text": "has",
+     "probability": 0.95
+    },
+    {
+     "start": 950.514,
+     "end": 950.898,
+     "text": "anti",
+     "probability": 0.95
+    },
+    {
+     "start": 950.898,
+     "end": 951.282,
+     "text": "caking",
+     "probability": 0.95
+    },
+    {
+     "start": 951.282,
+     "end": 951.666,
+     "text": "powder.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 971.66,
+   "end": 977.04,
+   "text": "Reserve a cup of pasta water before you drain, everybody forgets this every time.",
+   "words": [
+    {
+     "start": 971.66,
+     "end": 972.044,
+     "text": "Reserve",
+     "probability": 0.95
+    },
+    {
+     "start": 972.044,
+     "end": 972.428,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 972.428,
+     "end": 972.812,
+     "text": "cup",
+     "probability": 0.95
+    },
+    {
+     "start": 972.812,
+     "end": 973.196,
+     "text": "of",
+     "probability": 0.95
+    },
+    {
+     "start": 973.196,
+     "end": 973.58,
+     "text": "pasta",
+     "probability": 0.95
+    },
+    {
+     "start": 973.58,
+     "end": 973.964,
+     "text": "water",
+     "probability": 0.95
+    },
+    {
+     "start": 973.964,
+     "end": 974.348,
+     "text": "before",
+     "probability": 0.95
+    },
+    {
+     "start": 974.348,
+     "end": 974.732,
+     "text": "you",
+     "probability": 0.95
+    },
+    {
+     "start": 974.732,
+     "end": 975.116,
+     "text": "drain,",
+     "probability": 0.95
+    },
+    {
+     "start": 975.116,
+     "end": 975.5,
+     "text": "everybody",
+     "probability": 0.95
+    },
+    {
+     "start": 975.5,
+     "end": 975.884,
+     "text": "forgets",
+     "probability": 0.95
+    },
+    {
+     "start": 975.884,
+     "end": 976.268,
+     "text": "this",
+     "probability": 0.95
+    },
+    {
+     "start": 976.268,
+     "end": 976.652,
+     "text": "every",
+     "probability": 0.95
+    },
+    {
+     "start": 976.652,
+     "end": 977.036,
+     "text": "time.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 995.44,
+   "end": 1001.59,
+   "text": "A little lemon zest at the end cuts through all the fat in the butter sauce.",
+   "words": [
+    {
+     "start": 995.44,
+     "end": 995.824,
+     "text": "A",
+     "probability": 0.95
+    },
+    {
+     "start": 995.824,
+     "end": 996.208,
+     "text": "little",
+     "probability": 0.95
+    },
+    {
+     "start": 996.208,
+     "end": 996.592,
+     "text": "lemon",
+     "probability": 0.95
+    },
+    {
+     "start": 996.592,
+     "end": 996.976,
+     "text": "zest",
+     "probability": 0.95
+    },
+    {
+     "start": 996.976,
+     "end": 997.36,
+     "text": "at",
+     "probability": 0.95
+    },
+    {
+     "start": 997.36,
+     "end": 997.744,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 997.744,
+     "end": 998.128,
+     "text": "end",
+     "probability": 0.95
+    },
+    {
+     "start": 998.128,
+     "end": 998.512,
+     "text": "cuts",
+     "probability": 0.95
+    },
+    {
+     "start": 998.512,
+     "end": 998.896,
+     "text": "through",
+     "probability": 0.95
+    },
+    {
+     "start": 998.896,
+     "end": 999.28,
+     "text": "all",
+     "probability": 0.95
+    },
+    {
+     "start": 999.28,
+     "end": 999.664,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 999.664,
+     "end": 1000.048,
+     "text": "fat",
+     "probability": 0.95
+    },
+    {
+     "start": 1000.048,
+     "end": 1000.432,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 1000.432,
+     "end": 1000.816,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1000.816,
+     "end": 1001.2,
+     "text": "butter",
+     "probability": 0.95
+    },
+    {
+     "start": 1001.2,
+     "end": 1001.584,
+     "text": "sauce.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1023.79,
+   "end": 1029.56,
+   "text": "Cast iron holds heat so much better than the nonstick for building a proper sauce.",
+   "words": [
+    {
+     "start": 1023.79,
+     "end": 1024.175,
+     "text": "Cast",
+     "probability": 0.95
+    },
+    {
+     "start": 1024.175,
+     "end": 1024.56,
+     "text": "iron",
+     "probability": 0.95
+    },
+    {
+     "start": 1024.56,
+     "end": 1024.945,
+     "text": "holds",
+     "probability": 0.95
+    },
+    {
+     "start": 1024.945,
+     "end": 1025.33,
+     "text": "heat",
+     "probability": 0.95
+    },
+    {
+     "start": 1025.33,
+     "end": 1025.715,
+     "text": "so",
+     "probability": 0.95
+    },
+    {
+     "start": 1025.715,
+     "end": 1026.1,
+     "text": "much",
+     "probability": 0.95
+    },
+    {
+     "start": 1026.1,
+     "end": 1026.485,
+     "text": "better",
+     "probability": 0.95
+    },
+    {
+     "start": 1026.485,
+     "end": 1026.87,
+     "text": "than",
+     "probability": 0.95
+    },
+    {
+     "start": 1026.87,
+     "end": 1027.255,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1027.255,
+     "end": 1027.64,
+     "text": "nonstick",
+     "probability": 0.95
+    },
+    {
+     "start": 1027.64,
+     "end": 1028.025,
+     "text": "for",
+     "probability": 0.95
+    },
+    {
+     "start": 1028.025,
+     "end": 1028.41,
+     "text": "building",
+     "probability": 0.95
+    },
+    {
+     "start": 1028.41,
+     "end": 1028.795,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 1028.795,
+     "end": 1029.18,
+     "text": "proper",
+     "probability": 0.95
+    },
+    {
+     "start": 1029.18,
+     "end": 1029.565,
+     "text": "sauce.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1049.9,
+   "end": 1055.28,
+   "text": "Toast the black pepper in the dry pan first, it completely changes the aroma.",
+   "words": [
+    {
+     "start": 1049.9,
+     "end": 1050.284,
+     "text": "Toast",
+     "probability": 0.95
+    },
+    {
+     "start": 1050.284,
+     "end": 1050.668,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1050.668,
+     "end": 1051.052,
+     "text": "black",
+     "probability": 0.95
+    },
+    {
+     "start": 1051.052,
+     "end": 1051.436,
+     "text": "pepper",
+     "probability": 0.95
+    },
+    {
+     "start": 1051.436,
+     "end": 1051.82,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 1051.82,
+     "end": 1052.204,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1052.204,
+     "end": 1052.588,
+     "text": "dry",
+     "probability": 0.95
+    },
+    {
+     "start": 1052.588,
+     "end": 1052.972,
+     "text": "pan",
+     "probability": 0.95
+    },
+    {
+     "start": 1052.972,
+     "end": 1053.356,
+     "text": "first,",
+     "probability": 0.95
+    },
+    {
+     "start": 1053.356,
+     "end": 1053.74,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 1053.74,
+     "end": 1054.124,
+     "text": "completely",
+     "probability": 0.95
+    },
+    {
+     "start": 1054.124,
+     "end": 1054.508,
+     "text": "changes",
+     "probability": 0.95
+    },
+    {
+     "start": 1054.508,
+     "end": 1054.892,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1054.892,
+     "end": 1055.276,
+     "text": "aroma.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1073.48,
+   "end": 1079.25,
+   "text": "Cook the pasta two minutes under the box time because it finishes in the sauce.",
+   "words": [
+    {
+     "start": 1073.48,
+     "end": 1073.865,
+     "text": "Cook",
+     "probability": 0.95
+    },
+    {
+     "start": 1073.865,
+     "end": 1074.25,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1074.25,
+     "end": 1074.635,
+     "text": "pasta",
+     "probability": 0.95
+    },
+    {
+     "start": 1074.635,
+     "end": 1075.02,
+     "text": "two",
+     "probability": 0.95
+    },
+    {
+     "start": 1075.02,
+     "end": 1075.405,
+     "text": "minutes",
+     "probability": 0.95
+    },
+    {
+     "start": 1075.405,
+     "end": 1075.79,
+     "text": "under",
+     "probability": 0.95
+    },
+    {
+     "start": 1075.79,
+     "end": 1076.175,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1076.175,
+     "end": 1076.56,
+     "text": "box",
+     "probability": 0.95
+    },
+    {
+     "start": 1076.56,
+     "end": 1076.945,
+     "text": "time",
+     "probability": 0.95
+    },
+    {
+     "start": 1076.945,
+     "end": 1077.33,
+     "text": "because",
+     "probability": 0.95
+    },
+    {
+     "start": 1077.33,
+     "end": 1077.715,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 1077.715,
+     "end": 1078.1,
+     "text": "finishes",
+     "probability": 0.95
+    },
+    {
+     "start": 1078.1,
+     "end": 1078.485,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 1078.485,
+     "end": 1078.87,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1078.87,
+     "end": 1079.255,
+     "text": "sauce.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1104.37,
+   "end": 1110.14,
+   "text": "Emulsify by shaking the pan, not by stirring, or the butter just splits on you.",
+   "words": [
+    {
+     "start": 1104.37,
+     "end": 1104.755,
+     "text": "Emulsify",
+     "probability": 0.95
+    },
+    {
+     "start": 1104.755,
+     "end": 1105.14,
+     "text": "by",
+     "probability": 0.95
+    },
+    {
+     "start": 1105.14,
+     "end": 1105.525,
+     "text": "shaking",
+     "probability": 0.95
+    },
+    {
+     "start": 1105.525,
+     "end": 1105.91,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1105.91,
+     "end": 1106.295,
+     "text": "pan,",
+     "probability": 0.95
+    },
+    {
+     "start": 1106.295,
+     "end": 1106.68,
+     "text": "not",
+     "probability": 0.95
+    },
+    {
+     "start": 1106.68,
+     "end": 1107.065,
+     "text": "by",
+     "probability": 0.95
+    },
+    {
+     "start": 1107.065,
+     "end": 1107.45,
+     "text": "stirring,",
+     "probability": 0.95
+    },
+    {
+     "start": 1107.45,
+     "end": 1107.835,
+     "text": "or",
+     "probability": 0.95
+    },
+    {
+     "start": 1107.835,
+     "end": 1108.22,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1108.22,
+     "end": 1108.605,
+     "text": "butter",
+     "probability": 0.95
+    },
+    {
+     "start": 1108.605,
+     "end": 1108.99,
+     "text": "just",
+     "probability": 0.95
+    },
+    {
+     "start": 1108.99,
+     "end": 1109.375,
+     "text": "splits",
+     "probability": 0.95
+    },
+    {
+     "start": 1109.375,
+     "end": 1109.76,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 1109.76,
+     "end": 1110.145,
+     "text": "you.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1133.93,
+   "end": 1140.47,
+   "text": "Good olive oil goes on at the end off the heat, never into a screaming hot pan.",
+   "words": [
+    {
+     "start": 1133.93,
+     "end": 1134.315,
+     "text": "Good",
+     "probability": 0.95
+    },
+    {
+     "start": 1134.315,
+     "end": 1134.7,
+     "text": "olive",
+     "probability": 0.95
+    },
+    {
+     "start": 1134.7,
+     "end": 1135.085,
+     "text": "oil",
+     "probability": 0.95
+    },
+    {
+     "start": 1135.085,
+     "end": 1135.47,
+     "text": "goes",
+     "probability": 0.95
+    },
+    {
+     "start": 1135.47,
+     "end": 1135.855,
+     "text": "on",
+     "probability": 0.95
+    },
+    {
+     "start": 1135.855,
+     "end": 1136.24,
+     "text": "at",
+     "probability": 0.95
+    },
+    {
+     "start": 1136.24,
+     "end": 1136.625,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1136.625,
+     "end": 1137.01,
+     "text": "end",
+     "probability": 0.95
+    },
+    {
+     "start": 1137.01,
+     "end": 1137.395,
+     "text": "off",
+     "probability": 0.95
+    },
+    {
+     "start": 1137.395,
+     "end": 1137.78,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1137.78,
+     "end": 1138.165,
+     "text": "heat,",
+     "probability": 0.95
+    },
+    {
+     "start": 1138.165,
+     "end": 1138.55,
+     "text": "never",
+     "probability": 0.95
+    },
+    {
+     "start": 1138.55,
+     "end": 1138.935,
+     "text": "into",
+     "probability": 0.95
+    },
+    {
+     "start": 1138.935,
+     "end": 1139.32,
+     "text": "a",
+     "probability": 0.95
+    },
+    {
+     "start": 1139.32,
+     "end": 1139.705,
+     "text": "screaming",
+     "probability": 0.95
+    },
+    {
+     "start": 1139.705,
+     "end": 1140.09,
+     "text": "hot",
+     "probability": 0.95
+    },
+    {
+     "start": 1140.09,
+     "end": 1140.475,
+     "text": "pan.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1157.89,
+   "end": 1163.66,
+   "text": "A handful of parsley at the very end for freshness and then it is done.",
+   "words": [
+    {
+     "start": 1157.89,
+     "end": 1158.275,
+     "text": "A",
+     "probability": 0.95
+    },
+    {
+     "start": 1158.275,
+     "end": 1158.66,
+     "text": "handful",
+     "probability": 0.95
+    },
+    {
+     "start": 1158.66,
+     "end": 1159.045,
+     "text": "of",
+     "probability": 0.95
+    },
+    {
+     "start": 1159.045,
+     "end": 1159.43,
+     "text": "parsley",
+     "probability": 0.95
+    },
+    {
+     "start": 1159.43,
+     "end": 1159.815,
+     "text": "at",
+     "probability": 0.95
+    },
+    {
+     "start": 1159.815,
+     "end": 1160.2,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1160.2,
+     "end": 1160.585,
+     "text": "very",
+     "probability": 0.95
+    },
+    {
+     "start": 1160.585,
+     "end": 1160.97,
+     "text": "end",
+     "probability": 0.95
+    },
+    {
+     "start": 1160.97,
+     "end": 1161.355,
+     "text": "for",
+     "probability": 0.95
+    },
+    {
+     "start": 1161.355,
+     "end": 1161.74,
+     "text": "freshness",
+     "probability": 0.95
+    },
+    {
+     "start": 1161.74,
+     "end": 1162.125,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 1162.125,
+     "end": 1162.51,
+     "text": "then",
+     "probability": 0.95
+    },
+    {
+     "start": 1162.51,
+     "end": 1162.895,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 1162.895,
+     "end": 1163.28,
+     "text": "is",
+     "probability": 0.95
+    },
+    {
+     "start": 1163.28,
+     "end": 1163.665,
+     "text": "done.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1185.7,
+   "end": 1190.32,
+   "text": "This entire dish costs about three dollars and beats most delivery honestly.",
+   "words": [
+    {
+     "start": 1185.7,
+     "end": 1186.085,
+     "text": "This",
+     "probability": 0.95
+    },
+    {
+     "start": 1186.085,
+     "end": 1186.47,
+     "text": "entire",
+     "probability": 0.95
+    },
+    {
+     "start": 1186.47,
+     "end": 1186.855,
+     "text": "dish",
+     "probability": 0.95
+    },
+    {
+     "start": 1186.855,
+     "end": 1187.24,
+     "text": "costs",
+     "probability": 0.95
+    },
+    {
+     "start": 1187.24,
+     "end": 1187.625,
+     "text": "about",
+     "probability": 0.95
+    },
+    {
+     "start": 1187.625,
+     "end": 1188.01,
+     "text": "three",
+     "probability": 0.95
+    },
+    {
+     "start": 1188.01,
+     "end": 1188.395,
+     "text": "dollars",
+     "probability": 0.95
+    },
+    {
+     "start": 1188.395,
+     "end": 1188.78,
+     "text": "and",
+     "probability": 0.95
+    },
+    {
+     "start": 1188.78,
+     "end": 1189.165,
+     "text": "beats",
+     "probability": 0.95
+    },
+    {
+     "start": 1189.165,
+     "end": 1189.55,
+     "text": "most",
+     "probability": 0.95
+    },
+    {
+     "start": 1189.55,
+     "end": 1189.935,
+     "text": "delivery",
+     "probability": 0.95
+    },
+    {
+     "start": 1189.935,
+     "end": 1190.32,
+     "text": "honestly.",
+     "probability": 0.95
+    }
+   ]
+  },
+  {
+   "start": 1211.67,
+   "end": 1217.44,
+   "text": "Let it rest thirty seconds in the bowl so the sauce tightens up before eating.",
+   "words": [
+    {
+     "start": 1211.67,
+     "end": 1212.055,
+     "text": "Let",
+     "probability": 0.95
+    },
+    {
+     "start": 1212.055,
+     "end": 1212.44,
+     "text": "it",
+     "probability": 0.95
+    },
+    {
+     "start": 1212.44,
+     "end": 1212.825,
+     "text": "rest",
+     "probability": 0.95
+    },
+    {
+     "start": 1212.825,
+     "end": 1213.21,
+     "text": "thirty",
+     "probability": 0.95
+    },
+    {
+     "start": 1213.21,
+     "end": 1213.595,
+     "text": "seconds",
+     "probability": 0.95
+    },
+    {
+     "start": 1213.595,
+     "end": 1213.98,
+     "text": "in",
+     "probability": 0.95
+    },
+    {
+     "start": 1213.98,
+     "end": 1214.365,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1214.365,
+     "end": 1214.75,
+     "text": "bowl",
+     "probability": 0.95
+    },
+    {
+     "start": 1214.75,
+     "end": 1215.135,
+     "text": "so",
+     "probability": 0.95
+    },
+    {
+     "start": 1215.135,
+     "end": 1215.52,
+     "text": "the",
+     "probability": 0.95
+    },
+    {
+     "start": 1215.52,
+     "end": 1215.905,
+     "text": "sauce",
+     "probability": 0.95
+    },
+    {
+     "start": 1215.905,
+     "end": 1216.29,
+     "text": "tightens",
+     "probability": 0.95
+    },
+    {
+     "start": 1216.29,
+     "end": 1216.675,
+     "text": "up",
+     "probability": 0.95
+    },
+    {
+     "start": 1216.675,
+     "end": 1217.06,
+     "text": "before",
+     "probability": 0.95
+    },
+    {
+     "start": 1217.06,
+     "end": 1217.445,
+     "text": "eating.",
+     "probability": 0.95
+    }
+   ]
+  }
+ ]
+}
